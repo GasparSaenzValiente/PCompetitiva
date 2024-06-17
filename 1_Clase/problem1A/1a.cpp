@@ -6,6 +6,8 @@ typedef long double ld;
 
 #define fore(i, a, b) for(ull i=a; i < b; i++)
 
+// https://codeforces.com/contest/1/problem/A
+
 int main(){
     ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
     

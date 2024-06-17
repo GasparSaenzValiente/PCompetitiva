@@ -6,6 +6,8 @@ typedef unsigned long long ull;
 
 #define fore(i, a, b) for(ull i = a; i < b; i++)
 
+// https://codeforces.com/contest/433/problem/B
+
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);

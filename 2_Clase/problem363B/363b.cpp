@@ -1,24 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// https://codeforces.com/contest/363/problem/B
+
 int main() {
-    // Hacer que la entrada/salida sea más rápida
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
+    ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
     int n, k;
-    // Leer los valores de n y k
     cin >> n >> k;
 
-    // Declarar el vector para almacenar las alturas de las tablas
     vector<int> fence(n);
-    // Leer las alturas de las tablas
     for (auto& i : fence) {
         cin >> i;
     }
 
-    // Declarar un vector para almacenar las sumas parciales
+    // vector sumas parciales
     vector<int> psums(n + 1);
     psums[0] = 0; // La primera suma parcial es 0
 

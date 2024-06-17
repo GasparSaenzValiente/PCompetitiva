@@ -7,6 +7,7 @@ typedef long double ld;
 #define fore(i, a, b) for(ull i=a; i < b; i++)
 
 // g++ -Wall -std=c++17 nombre_del_archivo.cpp -o nombre_del_ejecutable
+// https://codeforces.com/contest/166/problem/A
 
 bool compare(const pair<ll, ll>& a, const pair<ll, ll>& b) {
     if (a.first != b.first)
